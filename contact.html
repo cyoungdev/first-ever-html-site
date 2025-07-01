@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Contact - Charlie Young</title>
+        <!--SEO optimisation-->
+        <meta name="description" content="Contact page and form."/>
+        <meta name="author" content="Charlie Young"/>
+    </head>
+    <main>
+        <h1>Contact - Charlie Young</h1>
+         <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h2>Get in touch!</h2>
+        <p>To get in touch, please fill out the following form (it doesn't work, yet...)</p>
+        <form method="post">
+            <fieldset id="personal-details">
+                <legend>Personal Details</legend>
+
+                <label for="full-name">Your name: </label>
+                <input type="text" id="full-name" placeholder="ex. John Doe"/>
+                
+                <label for="email-address">Your email: </label>
+                <input type="email" id="email-address" placeholder="ex. example@example.com"/>
+
+                <label for="mobile-num">Your telephone number: </label>
+                <input type="tel" id="mobile-num" placeholder="07000000000" minlength="10" maxlength="12"/>
+            </fieldset>
+            <fieldset id="your-query">
+                <legend>Your Query</legend>
+
+                <label for="query">Your message: </label>
+                <textarea id="query" type="text" placeholder="Type here (max 200 chars)" maxlength="200"></textarea>
+            </fieldset>
+            <button type="submit">Submit Form</button>
+            <p>We'll do our best to get back to you as soon as possible!</p>
+        </form>
+    </main>
+</html>
